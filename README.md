@@ -131,3 +131,4 @@ read-anything/
 ## License
 
 MIT — 见 [LICENSE](LICENSE)。欢迎自取、修改、把 `templates/` 换成你自己的模板。
+如果你感觉对你有帮助，欢迎点亮star
