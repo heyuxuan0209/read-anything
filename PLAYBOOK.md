@@ -42,7 +42,9 @@
 node scripts/fetch-article.mjs "<url>"
 ```
 
-输出 JSON `{ok, title, body, error}`。经 r.jina.ai 只读代理，免 key；
+输出 JSON `{ok, title, body, via, error}`。通用网页经 r.jina.ai 只读代理（免 key）；
+**公众号（mp.weixin.qq.com）自动走本机直抓专线**——微信对 Jina 的数据中心 IP
+返回验证页，但对本机 IP 通常放行（2026-07-17 三篇实测全通），失败再落 Jina。
 脚本内置：上游错误识破（Jina 会把 403/404 包成 200）、300 字垃圾门槛、噪音清洗。
 
 失败 → 如实报告脚本返回的原因，请用户直接粘贴正文。不要换个方式硬抓。
