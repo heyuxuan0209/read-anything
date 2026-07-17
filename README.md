@@ -66,12 +66,29 @@ git clone https://github.com/heyuxuan0209/read-anything.git ~/.claude/skills/rea
 `git -C ~/.claude/skills/read-anything pull`。只装到某个项目就克隆到
 项目的 `.claude/skills/read-anything`。
 
-**其他 agent（Codex CLI / Cursor / OpenClaw / Gemini CLI…）**：核心逻辑全在
+**其他 agent（Codex / Cursor / Gemini CLI / OpenClaw…）**：核心逻辑全在
 `PLAYBOOK.md`（纯 markdown 剧本）+ `scripts/`（普通命令行工具，JSON 进出），
-不依赖任何 Claude 特性。接法任选：
-- 在你的 agent 指令文件（AGENTS.md / rules）里写：「用户丢链接要求分析时，
-  按 <路径>/PLAYBOOK.md 执行」
-- 或每次直接说：「按这个文件夹里的 PLAYBOOK.md 处理这个链接」
+不依赖任何 Claude 特性。所有 agent 的接法都是同一个模式——**克隆 + 在你的
+agent 指令文件里贴一段话**：
+
+```bash
+git clone https://github.com/heyuxuan0209/read-anything.git ~/.agent-skills/read-anything
+```
+
+往下面这个文件里贴这段（各家只是文件名不同）：
+
+```markdown
+## read-anything（链接/录音 → 中文解读）
+当我丢链接、音频文件，或粘贴长文/纪要并要求「分析 / 解读 / 讲了啥」时，
+按 ~/.agent-skills/read-anything/PLAYBOOK.md 执行（路由、模板、降级规则都在里面）。
+```
+
+| Agent | 指令文件 |
+|---|---|
+| Codex CLI | `~/.codex/AGENTS.md`（全局）或项目根 `AGENTS.md` |
+| Cursor | 项目 `.cursor/rules/` 下新建规则（或旧版 `.cursorrules`） |
+| Gemini CLI | `~/.gemini/GEMINI.md`（全局）或项目根 `GEMINI.md` |
+| 其他 / 懒得配 | 每次直接说「按 ~/.agent-skills/read-anything/PLAYBOOK.md 处理这个链接」 |
 
 诚实边界：脚本保证各家 agent 拿到同样干净的材料；**解读质量由你所用模型决定**，
 不承诺跨模型效果一致。
