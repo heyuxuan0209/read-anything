@@ -128,6 +128,34 @@ read-anything/
 识破、300 字垃圾门槛、字幕误听人名警示、播客无转写声明等）都来自真实踩坑，
 注释里保留了原因。
 
-## License
+## 🔗 关注我 · learn in public, build in public
 
-MIT — 见 [LICENSE](LICENSE)。欢迎自取、修改、把 `templates/` 换成你自己的模板。
+我怎么做 AI 产品、把「读到的」变成「写出来、发出去」的方法、AI 落地的一手经验与思考——
+**都在这些平台上边做边分享**。想一起 learn / build in public，或认识做内容、做 AI
+产品的朋友，欢迎关注、来聊：
+
+<table>
+  <tr>
+    <td align="center"><b>小红书</b></td>
+    <td align="center"><b>微信公众号</b></td>
+    <td align="center"><b>抖音 / 视频号</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/qr-xiaohongshu.jpg" width="210" alt="小红书 杰西卡"></td>
+    <td align="center"><img src="assets/qr-wechat.jpg" width="180" alt="微信公众号 杰西卡聊AI"></td>
+    <td align="center"><img src="assets/qr-douyin.jpg" width="210" alt="抖音 杰西卡"></td>
+  </tr>
+  <tr>
+    <td align="center">杰西卡 · 小红书号 <code>111013749</code></td>
+    <td align="center">搜「<b>杰西卡聊AI</b>」关注</td>
+    <td align="center">@杰西卡 · 抖音号 <code>2179932674</code></td>
+  </tr>
+</table>
+
+## License & 二开须知
+
+MIT — 见 [LICENSE](LICENSE)。欢迎自取、修改、二次开发，也欢迎把它接进你自己的产品或工作流。
+
+**唯一的请求**：二开或转载时**注明出处**，并 **@ 一下我**（小红书 / 公众号搜「**杰西卡聊AI**」，
+主页见上）——让顺着来的人能找到源头，一起 learn/build in public，就是最好的感谢 🙏。
+欢迎把 `templates/` 换成你自己的模板。
