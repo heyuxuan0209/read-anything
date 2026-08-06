@@ -17,7 +17,9 @@ import { promisify } from 'util';
 const pexec = promisify(execFile);
 
 const url = process.argv[2];
-if (!url || !url.includes('xiaoyuzhoufm.com')) {
+let parsedUrl;
+try { parsedUrl = new URL(url); } catch { parsedUrl = null; }
+if (!parsedUrl || parsedUrl.protocol !== 'https:' || !(parsedUrl.hostname === 'xiaoyuzhoufm.com' || parsedUrl.hostname.endsWith('.xiaoyuzhoufm.com'))) {
   console.log(JSON.stringify({ ok: false, error: '用法: node fetch-xiaoyuzhou.mjs <小宇宙单集链接>' }));
   process.exit(1);
 }
