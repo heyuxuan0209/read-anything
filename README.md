@@ -255,17 +255,14 @@ I build AI products in public and share the notes here — come say hi:
   <tr>
     <td align="center"><b>小红书 · Xiaohongshu</b></td>
     <td align="center"><b>公众号 · WeChat</b></td>
+    <td align="center"><b>视频号 · Channels</b></td>
     <td align="center"><b>抖音 · Douyin</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/qr-xiaohongshu.jpg" width="210" alt="小红书 杰西卡"></td>
-    <td align="center"><img src="assets/qr-wechat.jpg" width="180" alt="公众号 杰西卡聊AI"></td>
-    <td align="center"><img src="assets/qr-douyin.jpg" width="210" alt="抖音 杰西卡"></td>
-  </tr>
-  <tr>
-    <td align="center">杰西卡 · 小红书号 <code>111013749</code></td>
-    <td align="center">搜「<b>杰西卡聊AI</b>」关注</td>
-    <td align="center">@杰西卡 · 抖音号 <code>2179932674</code></td>
+    <td align="center"><img src="assets/qr-xiaohongshu.jpg" width="200" alt="小红书 杰西卡"></td>
+    <td align="center"><img src="assets/qr-wechat.jpg" width="200" alt="公众号 杰西卡聊AI"></td>
+    <td align="center"><img src="assets/qr-shipinhao.jpg" width="200" alt="视频号 杰西卡"></td>
+    <td align="center"><img src="assets/qr-douyin.jpg" width="200" alt="抖音 杰西卡"></td>
   </tr>
 </table>
 
