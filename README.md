@@ -4,6 +4,15 @@
 
 **English** · [中文](#中文)
 
+<div align="center">
+
+<img src="assets/demo.gif" width="820" alt="read-anything 演示：网页/长文 → 一键读成中文结构化笔记">
+
+<sub>演示：丢一个链接进去 → 自动抓取 / 转写 → 出中文结构化解读（精读稿 / 快扫 / 访谈拆解…）→ 就着材料继续追问。<br>
+A link in → auto-fetch / transcribe → a structured Chinese explainer → keep asking follow-ups over the source.</sub>
+
+</div>
+
 ```
 你：https://www.xiaoyuzhoufm.com/episode/xxxx 这期讲了啥
 它：（本地转写音频 + shownotes → 访谈拆解：两位嘉宾各自观点、分歧点、金句带时间戳）
